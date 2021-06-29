@@ -41,15 +41,31 @@ h2 {
     font-style:italic;
 }
 
+h3 {
+    color:#ff8b3d;
+}
+
+/* This is used to make the list numbers coloured and bolded. Part of this code was taken from https://www.lockedownseo.com/ordered-list-ol-different-color-for-numbers/ */
+
+ol li {
+    counter-increment: list;
+    list-style-type: none;
+}
+
+ol li:before {
+    color: #ff8b3d;
+    font-weight: bold;
+    content: counter(list) ".";
+}
+
 p {
   
 }
 
 .card {
     display: block;
-    width: 100%;
-    height: 100%;
     width: 40%;
+    height: 80%;
     float:none;
     margin-left:auto;
     margin-right:auto;
