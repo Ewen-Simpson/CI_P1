@@ -1,7 +1,11 @@
 body {
     margin: 0;
     padding: 0;
-    font-family:Arial, Helvetica, sans-serif
+    font-family:Arial, Helvetica, sans-serif;
+    background-image:url("https://images.unsplash.com/photo-1474511320723-9a56873867b5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&w=1000&q=80");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 nav ul{
@@ -37,6 +41,7 @@ h1{
 }
 
 h2 {
+    color:whitesmoke;
     text-align: center;
     font-style:italic;
 }
@@ -48,6 +53,7 @@ h3 {
 /* This is used to make the list numbers coloured and bolded. Part of this code was taken from https://www.lockedownseo.com/ordered-list-ol-different-color-for-numbers/ */
 
 ol li {
+    color:whitesmoke;
     counter-increment: list;
     list-style-type: none;
 }
@@ -59,22 +65,26 @@ ol li:before {
 }
 
 p {
-  
+  color:whitesmoke;
 }
 
 .card {
     display: block;
+    background-color: rgba(27, 19, 19, 0.8);
     width: 40%;
     height: 80%;
-    float:none;
-    margin-left:auto;
-    margin-right:auto;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 1%;
 }
 
 img {
     display: block;
-    width: 100%;
-    height: 100%;
-    margin-left:auto;
-    margin-right:auto;
+    width: 90%;
+    height: 90%;
+    margin-left: auto;
+    margin-right: auto;
 }
