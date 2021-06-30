@@ -10,6 +10,25 @@ Fox Facts is intended to be a small and compact reasource for some basic trivia 
 
 <img src="https://cdn.discordapp.com/attachments/859555895427072013/859904337195433984/navbar.JPG">
 
+### Colors
+
+<img src="https://cdn.discordapp.com/attachments/859555895427072013/859906702579859537/screenshot_1.JPG">
+
+Colors used for this project;
+
+- #ff8b3d: used as the dominant site colour for the navbar, heading text and list markers.
+- #e7e7e7: used for the logo and for text
+- #1b1313: used for the pages to break up text
+
+The colours used for this project were chosen for two reasons. The first is that these colours strongly contrast with each other that contributes to the accessability and readability of the site, and the second reason is that these colours are strongly associated with foxes and helps tie the site's content together to it's theme.
+
+### Species-specific pages
+
+https://cdn.discordapp.com/attachments/859555895427072013/859908045546717264/fennec-fox.JPG
+
+There is 3 species-specific pages for each of the three featured species: arctic foxes, red foxes and fennec foxes. Each page has a large central image of a member of the fox species as well as 3 quick facts and a brief explanation of where they can be found. 
+
+A link can be found at the bottom of each page to the Wikipedia article of each species for further information.
 
 ## Testing
 
