@@ -50,8 +50,6 @@ h3 {
     color: #ff8b3d;
 }
 
-
-
 table {
     margin-top: 0;
     margin-bottom: 0;
@@ -70,19 +68,24 @@ table td {
     text-align: center;
 }
 
+/* max-width and max-height is used instead of width and height for better scaling across browsers and devices */
+/* Part of this code was taken and adapted from https://www.w3schools.com/howto/howto_css_thumbnail.asp*/
+
 table img {
     border: 1px solid #e7e7e7;
     border-radius: 4px;
     padding: 5px;
-    width: 150px;
+    max-width: 150px;
+    max-height: 100px;
 }
 
-/* This is used to make the list numbers coloured and bolded. Part of this code was taken from https://www.lockedownseo.com/ordered-list-ol-different-color-for-numbers/ */
+/* This is used to make the list numbers coloured and bolded. Part of this code was taken and adapted from https://www.lockedownseo.com/ordered-list-ol-different-color-for-numbers/ */
 
 ol li {
     color: whitesmoke;
     counter-increment: list;
     list-style-type: none;
+    margin: 15px;
 }
 
 ol li:before {
@@ -94,6 +97,8 @@ ol li:before {
 p {
     color: whitesmoke;
 }
+
+/* This is used for the main body of content on each page.*/
 
 .card {
     display: block;
@@ -114,4 +119,28 @@ img {
     height: 90%;
     margin-left: auto;
     margin-right: auto;
+}
+
+/* For mobile devices */
+
+@media only screen and (max-width: 600px) {
+    .card {
+        display: block;
+        background-color: rgba(27, 19, 19, 0.8);
+        width: 90%;
+        height: 80%;
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        padding: 1%;
+    }
+    table img {
+        border: 1px solid #e7e7e7;
+        border-radius: 4px;
+        padding: 5px;
+        max-width: 150px;
+        max-height: 100px;
+    }
 }
