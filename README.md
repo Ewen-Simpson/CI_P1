@@ -8,7 +8,7 @@ Fox Facts is intended to be a small and compact reasource for some basic trivia 
 
 - Present at the top of every page. The navigation bar is fully responsive, large font and clear to allow for easy navigation around the site.
 
-<img src="https://cdn.discordapp.com/attachments/859555895427072013/859896637954457610/unknown.png">
+<img src="https://cdn.discordapp.com/attachments/859555895427072013/859904337195433984/navbar.JPG">
 
 
 ## Testing
