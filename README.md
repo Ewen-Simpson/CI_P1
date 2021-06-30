@@ -4,6 +4,12 @@ Fox Facts is intended to be a small and compact reasource for some basic trivia 
 
 ## Features
 
+### Navigation Bar
+
+- Present at the top of every page. The navigation bar is fully responsive, large font and clear to allow for easy navigation around the site.
+
+
+
 ## Testing
 
 This project has been regularly tested visually on different browsers and devices. In particular, this project has been tested on the following devices and browsers:
