@@ -24,7 +24,7 @@ The colours used for this project were chosen for two reasons. The first is that
 
 ### Species-specific pages
 
-https://cdn.discordapp.com/attachments/859555895427072013/859908045546717264/fennec-fox.JPG
+<img src="https://cdn.discordapp.com/attachments/859555895427072013/859908045546717264/fennec-fox.JPG">
 
 There is 3 species-specific pages for each of the three featured species: arctic foxes, red foxes and fennec foxes. Each page has a large central image of a member of the fox species as well as 3 quick facts and a brief explanation of where they can be found. 
 
