@@ -58,10 +58,14 @@ No known bugs have been encountered.
 
 ## Deployment
 
-This site was deployed to GitHub. The steps to deploy are as follows:
+This site was deployed to GitHub pages. The steps to deploy are as follows:
   
-
-
+  - In the GitHub repository, navigate to and click on the Settings tab.
+  - Scroll down to the GitHub Pages section and click on the hyperlink.
+  - Select the master branch and the page will automatically refresh to confirm successful deployment.
+  
+The live link to this project cna be found at - https://ewen-simpson.github.io/CI_P1/index.html
+  
 ## Credits
 
 ### Content
